@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+C:\Users\felip\eclipse-workspace\cadastro-clientes-master\Clientes\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index

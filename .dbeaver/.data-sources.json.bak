@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-188902f9213-7a072092b9da9622": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "bdclientes.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\felip\\eclipse-workspace\\cadastro-clientes-master\\Clientes\\resources\\bdSys.db",
+				"url": "jdbc:sqlite:C:\\Users\\felip\\eclipse-workspace\\cadastro-clientes-master\\Clientes\\resources\\bdSys.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Desenvolvimento",
+			"color": "255,255,255",
+			"description": "Banco de dados de desenvolvimento",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
