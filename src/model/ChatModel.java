@@ -46,7 +46,7 @@ public class ChatModel {
             finalJson.addProperty("question", question); // A pergunta do usuário
 
             // conexão com a API
-            URL url = new URL("http://35.247.253.161:8000/ask-for-your-assistant");
+            URL url = new URL("http://35.247.224.15:8000/ask-for-your-assistant");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setRequestProperty("Content-Type", "application/json");
